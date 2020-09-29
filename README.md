@@ -1,0 +1,1 @@
+# lkts_react_component_publish_test
