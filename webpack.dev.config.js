@@ -11,13 +11,18 @@ module.exports = {
   // },
   resolve: {
     extensions: [
-      '.js', '.jsx', '.ts', '.tsx'
+      '.js', '.jsx', '.ts', '.tsx', '.less', '.css'
     ]
   },
   module: {
     rules: [
       {
-        test: /\.(j|t)sx?$/,
+        test: /\.(js|jsx)$/,
+        use: 'babel-loader',
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
         use: {
           loader: "ts-loader",
@@ -27,8 +32,8 @@ module.exports = {
         }
       },
       {
-        test: /\.(le|c)ss$/,
-        use: ['style-loader', 'css-loader']
+        test: /\.(less|css)$/,
+        use: ['style-loader', 'css-loader', 'postcss-loader', 'less-loader'],
       },
       {
         test: /\.cm\.styl$/,
@@ -44,6 +49,6 @@ module.exports = {
     new htmlWebpackPlugin({
       template: 'public/index.html'
     }),
-    new ForkTSCheckerWebpackPlugin()
+    new ForkTSCheckerWebpackPlugin(),
   ],
 };
