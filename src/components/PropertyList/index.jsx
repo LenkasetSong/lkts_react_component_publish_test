@@ -7,7 +7,7 @@ import RangeControl from "./components/RangeControl.jsx";
 import SelectionControl from "./components/SelectionControl.jsx";
 import SwitchControl from "./components/SwitchControl.jsx";
 import ListControl from "./components/ListControl.jsx";
-import "antd/dist/antd.css";
+// import "antd/dist/antd.css";
 
 const { Panel } = Collapse;
 
