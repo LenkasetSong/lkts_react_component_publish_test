@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Button } from "antd";
 import NewButton, { AnotherButton, PropertyList } from './index';
+import styles from './app.less';
 
 const parameters = [
   {
@@ -38,7 +39,7 @@ function App() {
       <NewButton name="新按钮" />
       <Button>antd按钮</Button>
       <AnotherButton name="另一个按钮" />
-      <PropertyList params={parameters} OnParamsChanged={(pg) => {
+      <PropertyList className={styles.pldiv} params={parameters} OnParamsChanged={(pg) => {
         console.log(pg);
       }} />
     </>
