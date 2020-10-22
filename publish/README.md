@@ -1,4 +1,4 @@
-# lkts_react_component_publish_test
+# lkts_react_ui -> <span style="color:red">component_publish_test</span>
 
 [如何创建一个前端 React 组件并发布到 NPM](https://www.jianshu.com/p/db6113c94dbc)
 
