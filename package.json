@@ -24,7 +24,6 @@
   "homepage": "https://github.com/lenkasetGitHub/lkts_react_component_publish_test#readme",
   "dependencies": {
     "antd": "^4.6.6",
-    "babel-plugin-import": "^1.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
