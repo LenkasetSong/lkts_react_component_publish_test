@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Frequency",
+    "groupName": "Basic Property",
+    "index": 1,
+    "minValue": 0,
+    "maxValue": 10000
+  },
+  {
+    "name": "Frequency",
+    "groupName": "Basic Property",
+    "index": 1,
+    "minValue": 0,
+    "maxValue": 10000
+  }
+]

@@ -7633,8 +7633,8 @@ lines-and-columns@^1.1.6:
 
 lkts_react_ui@^1.0.0:
   version "1.0.0"
-  resolved "http://localhost:4873/lkts_react_ui/-/lkts_react_ui-1.0.0.tgz#eaa7a7fa6379fd98f9b18af46dd0105029cf04db"
-  integrity sha512-WiO57MNnAyOkXGb3AiiuMcXuBIg3Zefgb5XSMKsDvna9iWclUkv1/cKBQe7Ujmhe/Px5D8CIDX34afhYSzcVMQ==
+  resolved "http://localhost:4873/lkts_react_ui/-/lkts_react_ui-1.0.0.tgz#ca6ef9bb1a6a19fd57e1e23c707b15ec3c82e87c"
+  integrity sha512-SsC7MIGd7oyWAM1y9ebSAhLnfplu3zbybst+fNCAYKkBbHV3Oiv/XMnLJcdFceKrrNEctK3neWXUf0W446QrOQ==
   dependencies:
     antd "^4.6.6"
     react "^16.13.1"

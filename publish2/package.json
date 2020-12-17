@@ -1,0 +1,75 @@
+{
+  "name": "lkts_react_ui2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/dc-umd.min.js",
+  "files": [
+    "dist",
+    "readme.md"
+  ],
+  "scripts": {
+    "rollup-build": "cross-env BABEL_ENV=rollup rollup -c",
+    "rollup-production-build": "cross-env NODE_ENV=production rollup -c",
+    "build:commonjs": "rimraf lib  && cross-env BABEL_ENV=commonjs babel src --out-dir lib",
+    "build:es": "rimraf es && cross-env BABEL_ENV=es babel src --out-dir es"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenkasetGitHub/lkts_react_component_publish_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lenkasetGitHub/lkts_react_component_publish_test/issues"
+  },
+  "homepage": "https://github.com/lenkasetGitHub/lkts_react_component_publish_test#readme",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "antd": "^4.6.6",
+    "less": "2.7.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-external-helpers": "^7.12.1",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-decorators": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/plugin-transform-react-display-name": "^7.12.1",
+    "@babel/plugin-transform-react-jsx": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/runtime": "^7.12.1",
+    "@rollup/plugin-image": "^2.0.5",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-import": "^1.13.1",
+    "cross-env": "^7.0.2",
+    "css-loader": "^4.3.0",
+    "cssnano": "^4.1.10",
+    "fork-ts-checker-webpack-plugin": "^5.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "less-loader": "^7.0.2",
+    "postcss": "^8.1.2",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-loader": "^4.0.4",
+    "postcss-nested": "^5.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-simple-vars": "^6.0.1",
+    "rollup": "^2.32.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-less": "^1.1.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^3.1.8",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-uglify": "^6.0.4",
+    "style-loader": "^1.3.0",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3"
+  }
+}
